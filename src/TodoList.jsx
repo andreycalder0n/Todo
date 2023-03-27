@@ -1,6 +1,6 @@
 function TodoList(props) {
     return (
-        <div>
+        <div className="w-full px-4">
             <ul>
                 {props.children}
             </ul>

@@ -13,7 +13,7 @@ const todos = [
 
 function App() {
   return (
-    <>
+    <div className='bg-orange-100 flex flex-col justify-between items-center h-screen w-full p-2'>
       <TodoCounter />
       <TodoSearch />
       <TodoList>
@@ -22,7 +22,7 @@ function App() {
         ))}
       </TodoList>
       <CreateTodoButton />
-    </>
+    </div>
   );
 }
 
